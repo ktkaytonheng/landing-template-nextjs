@@ -1,0 +1,13 @@
+.item-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  align-items: center;
+}
+
+.item {
+  padding: 8px 12px;
+  border: 1px solid black;
+  border-radius: 8px;
+  width: 100px;
+}

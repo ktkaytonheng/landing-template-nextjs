@@ -1,0 +1,15 @@
+@use "@/styles/_variables" as *;
+
+$placeholder-color: #80c2eb;
+$placeholder-text-color: black;
+
+.topbar {
+  box-sizing: border-box;
+  width: 100%;
+  height: $topbar-height;
+  background: $placeholder-color;
+  display: flex;
+  align-items: center;
+  padding: $padding-y $padding-x;
+  color: $placeholder-text-color;
+}

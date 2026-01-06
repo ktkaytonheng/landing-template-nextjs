@@ -1,0 +1,16 @@
+@use "@/styles/_variables" as *;
+
+.container {
+  box-sizing: border-box;
+  width: 100vw;
+  height: calc(100vh - $topbar-height);
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  width: clamp(60%, 800px, 1200px);
+  flex: none;
+  height: 100%;
+  overflow-y: auto;
+}
