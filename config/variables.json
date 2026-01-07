@@ -2,5 +2,11 @@
   "padding-x": "20px",
   "padding-y": "16px",
   "topbar-height": "64px",
-  "sidebar-width": "240px"
+  "sidebar-width": "240px",
+  "placeholder-color-bg-1": "#37353E",
+  "placeholder-color-bg-2": "#44444E",
+  "placeholder-color-bg-3": "#715A5A",
+  "placeholder-color-trim-1": "#D3DAD9",
+  "placeholder-color-trim-2": "#C4ACA8",
+  "placeholder-color-trim-3": "#B8A09A"
 }

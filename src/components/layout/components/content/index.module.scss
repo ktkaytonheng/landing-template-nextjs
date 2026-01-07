@@ -1,12 +1,9 @@
 @use "@/styles/_variables" as *;
 
-$placeholder-color: #fee08b;
-$placeholder-text-color: black;
-
 .content {
-  box-sizing: border-box;
   flex: 1;
   padding: $padding-y $padding-x;
-  background: $placeholder-color;
-  color: $placeholder-text-color;
+  background: $placeholder-color-bg-2;
+  color: $placeholder-color-trim-1;
+  border: 1px solid $placeholder-color-trim-1;
 }

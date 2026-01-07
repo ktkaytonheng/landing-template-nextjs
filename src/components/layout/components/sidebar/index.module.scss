@@ -1,13 +1,10 @@
 @use "@/styles/_variables" as *;
 
-$placeholder-color: #abdda4;
-$placeholder-text-color: black;
-
 .sidebar {
-  box-sizing: border-box;
   width: $sidebar-width;
   height: 100%;
-  background: $placeholder-color;
+  background: $placeholder-color-bg-1;
   padding: $padding-y $padding-x;
-  color: $placeholder-text-color;
+  color: $placeholder-color-trim-1;
+  border: 1px solid $placeholder-color-trim-1;
 }
